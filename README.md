@@ -1,0 +1,2 @@
+# JavaScriptRealTimeSpider
+基于浏览器端的JavaScript实时爬虫
