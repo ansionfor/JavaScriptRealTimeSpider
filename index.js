@@ -122,4 +122,4 @@ function timer1(){
 }
 
 timer();
-var timer1_id = setInterval(timer1,1000);
+var timer1_id = setInterval(timer1,100);
