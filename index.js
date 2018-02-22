@@ -43,12 +43,12 @@ function getFirstDOM(){
     return document.querySelector('.body_zb_li');
 }
 
-//获得第一条新闻id,参数dom==1代表获取最新的一条数据
+//获得第一条新闻id
 function getDOMId(dom){
     return dom.classList.toString().indexOf('zb-adv') != -1?false:dom.id;
 }
 
-//返回图片地址,参数dom==1代表获取最新的一条数据
+//返回图片地址
 function getDOMImg(dom){
     var src = '';
     if(dom.querySelector('.zb_pic') != null){
