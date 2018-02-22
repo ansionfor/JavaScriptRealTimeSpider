@@ -89,8 +89,6 @@ function timer(){
             info.push(dom_info);
             ajaxPost(info);
         }
-
-
     }
 }
 
