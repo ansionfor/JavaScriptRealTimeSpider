@@ -28,7 +28,7 @@ function timest(length=10){
 //ajax传数据
 function ajaxPost(data){
     $.ajax({
-        url:"https://live.ansion.cc/Ceofx/push",
+        url:"",
         type:'post',
         data:{
             admin:'#$ERFDWQQ@#',
